@@ -15,7 +15,7 @@
 （3）模型集成部分：因为logistic回归拟合能力较弱，所以先让它进行Adaboost增强拟合能力，而后再把它和SVM，KNN，随机森林，Xgboost，lightgbm一起进行基于软投票策略的Bagging方法后输出最终的分类结果。    
 （4）模型训练部分：按照训练集和测试集5:5的比例划分数据集，而后按照划分的数据集使用网格调参法调出每一个基分类模型的最佳参数，而后将其带入集成学习模型当中进行最终的模型分类预测  
 # 论文方法的结果图  
-![image](https://github.com/ynwu838/Human-Action-Recognition-Algorithm-via-Human-Joint-Angle/blob/main/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%871.png)
+![image](https://github.com/ynwu838/Human-Action-Recognition-Algorithm-via-Human-Joint-Angle/blob/main/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%871.png)  
 本文先使用网格调参法调出基分类器的最佳参数。根据调参的结果，各个基分类器的最佳参数如下：  
 （1）logistic回归：“L2”惩罚项，C取0.214  
 （2）支持向量机：核函数取“poly”，C取0.238  
