@@ -1,9 +1,9 @@
 # Human-Action-Recognition-Algorithm-via-Human-Joint-Angle
-Human motion recognition is a very hot topic today, and human motion recognition has penetrated into many aspects of information technology today, such as video retrieval, identity recognition, etc. Human action recognition has always been a very technical subject in the field of computer vision, and human action classification is a important component of human action recognition.  
-With the development of machine learning, more and more related methods have been proposed. However, the shortcomings of this kind of method is obvious: the method based on manual feature extraction is often affected by some noise, And the method based on deep learning will consume a lot of computing resource. Hence, we propose a human action sequence feature extraction method based on the angle between human joints. In order to accomplish the classification task better, the classification model that we used in the thesis is an ensemble learning classification model based on Bagging strategy of soft voting .    The method proposed in the paper combines the advantages of traditional machine learning methods and deep learning methods: we firstly use the pre-training model of deep learning method to extract the keypoint of human motion from the human motion data . Therefore，the result of the method will not be affected by some noise. Then we use traditional manual design features with strong interpretability and low computational consumption and machine learning methods for modeling.  
-We first use this human action sequence feature extraction method to extract feature vectors, and then apply feature selection to extracted feature vectors. Then use the feature vector which go through feature selection for model training and model verification, and the ratio of training set and verification set is divided into 5:5. In this paper, the G3D data set is used as the dataset, and finally the method proposed in this paper has a performance of 92.3% on G3D. This result
-verifies the feasibility of the method in the paper  
-Keywords: G3D, Human Joint Angle, Openpose, Ensemble Learning
+人体动作识别是人机交互领域一个十分热门的话题，而且人体动作识别当中人体动作分类是一个比较经典的问题。在已经提出的人体动作分类方法中，基于手工提取特征的方法往往会对会受到一些噪声的影响，而基于深度学习的算法虽然没有这个问题又会耗费许多的算力。为此本文提出了一个基于人体关节夹角的人体动作识别算法，主要做了以下工作：
+（1）提出了一个可解释性强，耗费算力较少且鲁棒性较高的基于人体关节夹角的人体动作序列的特征抽取方法
+（2）本文所使用的分类模型是一个融合了SVM，lightgbm等6个分类模型的集成学习模型，并且使用了一个结合了Boosting和Bagging的集成学习策略。
+最终本论文提出的方法在G3D数据集上的分类准确率为92.3%。该结果验证论文中方法的可行性
+
 # Flowchart concerning the work
 (1)The picture of the feature extraction is as fellow:  
 ![image](https://github.com/ynwu838/first-paper-ACTION-SEQUENCE-SIMILARITY-CALCULATION-ALGORITHM-via-OPENPOSE/blob/main/result/flowchart.png)  
