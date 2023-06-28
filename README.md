@@ -15,9 +15,10 @@
 ③动作的特征向量抽取结果：https://pan.baidu.com/s/1RZoBe5edfd8zp0I7ttc_4w  
 # 代码运行
  ```cd ./code```   
-①集成分类模型运行结果  ```python model.py```   
+①集成分类模型运行结果  ```python proposed_method.py```   
 ②SVM画图  ```python SVM.py```   
 ①KNN画图  ```python KNN.py```   
-④随机森林画图  ```python SVM.py```   
-①KNN画图  ```python KNN.py```   
+④随机森林画图  ```python randomforest.py```   
+⑤xgboost和Lightgbm画图  ```python xgboost_and_lightgbm.py```   
+⑥logistic画图  ```python logistic.py```
 
