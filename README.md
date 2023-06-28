@@ -1,9 +1,6 @@
 # Human-Action-Recognition-Algorithm-via-Human-Joint-Angle
-Human motion recognition is a very hot topic today, and human motion recognition has
-penetrated into many aspects of information technology today, such as video retrieval, identity
-recognition, etc. Human action recognition has always been a very technical subject in the field
-of computer vision, and human action classification is a important component of human action
-recognition. With the development of machine learning, more and more related methods have been
+Human motion recognition is a very hot topic today, and human motion recognition has penetrated into many aspects of information technology today, such as video retrieval, identity recognition, etc. Human action recognition has always been a very technical subject in the field of computer vision, and human action classification is a important component of human action recognition. 
+With the development of machine learning, more and more related methods have been
 proposed. However, the shortcomings of this kind of method is obvious: the method based on
 manual feature extraction is often affected by some noise, And the method based on deep
 learning will consume a lot of computing resource. Hence, we propose a human action sequence
