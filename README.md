@@ -6,7 +6,8 @@ manual feature extraction is often affected by some noise, And the method based 
 learning will consume a lot of computing resource. Hence, we propose a human action sequence
 feature extraction method based on the angle between human joints. In order to accomplish the
 classification task better, the classification model that we used in the thesis is an ensemble
-learning classification model based on Bagging strategy of soft voting . The method proposed in the paper combines the advantages of traditional machine learning
+learning classification model based on Bagging strategy of soft voting .   
+The method proposed in the paper combines the advantages of traditional machine learning
 methods and deep learning methods: we firstly use the pre-training model of deep learning
 method to extract the keypoint of human motion from the human motion data . Therefore，the
 result of the method will not be affected by some noise. Then we use traditional manual design
