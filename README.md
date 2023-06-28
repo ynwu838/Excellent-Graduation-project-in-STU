@@ -14,10 +14,11 @@
        ③将50张图片得到的向量按照顺序拼接成长为13800的向量而后用基于方差的Filter方法和基于随机森林的RFE方法来特征选择。  
 （3）模型集成部分：因为logistic回归拟合能力较弱，所以先让它进行Adaboost增强拟合能力，而后再把它和SVM，KNN，随机森林，Xgboost，lightgbm一起进行基于软投票策略的Bagging方法后输出最终的分类结果。    
 （4）模型训练部分：按照训练集和测试集5:5的比例划分数据集，而后按照划分的数据集使用网格调参法调出每一个基分类模型的最佳参数，而后将其带入集成学习模型当中进行最终的模型分类预测  
-# 论文方法的结果图  
-![image](https://github.com/ynwu838/Human-Action-Recognition-Algorithm-via-Human-Joint-Angle/blob/main/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%871.png) 
+# 论文方法的实验以及实验结果结果  
 
-本文先使用网格调参法调出基分类器的最佳参数。根据调参的结果，各个基分类器的最佳参数如下：  
+
+本文先使用网格调参法调出基分类器的最佳参数，具体调参的过程如下图所示：
+根据调参的结果，各个基分类器的最佳参数如下：  
 （1）logistic回归：“L2”惩罚项，C取0.214  
 （2）支持向量机：核函数取“poly”，C取0.238  
 （3）KNN：使用kdtree进行搜索，K值取3  
@@ -26,7 +27,7 @@
 （6）Lightgbm：最佳estimators的个数为67  
 （7）在实验当中Adaboost中的基分类器的个数设定为100  
 将调参结果输入到集成分类学习模型当中以后分类准确率达到了92.3%，得到的分类结果的混淆矩阵如上图所示  
-
+![image](https://github.com/ynwu838/Human-Action-Recognition-Algorithm-via-Human-Joint-Angle/blob/main/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%871.png) 
 # 一些重要东西的下载
 ①论文原文链接：https://pan.baidu.com/s/1AKD0U35UxwT87RhKgANRBA  
 ②数据集使用的是G3D数据集：http://dipersec.king.ac.uk/G3D/G3D.html    
