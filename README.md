@@ -7,9 +7,5 @@
 # 论文提出的算法的流程图 
 ![image](https://github.com/ynwu838/Human-Action-Recognition-Algorithm-via-Human-Joint-Angle/blob/main/%E5%9B%BE%E7%89%87/602c46f727825cca6fbfb01fa5a40ce.png) 
 
-# Important files load
-Here are some locations of some important files:  
-Password tips:the most unfogettable year(with primary lover lcy)  
-①keypoint get:https://pan.baidu.com/s/1Gxquf8uLAkDUf4PDfU4Nhg  
-②feature extraction result(matrixes)：https://pan.baidu.com/s/1RZoBe5edfd8zp0I7ttc_4w  
-③G3D database：http://dipersec.king.ac.uk/G3D/G3D.html
+# 论文方法的结果图
+![image](https://github.com/ynwu838/Human-Action-Recognition-Algorithm-via-Human-Joint-Angle/blob/main/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%871.png)
