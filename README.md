@@ -5,7 +5,7 @@
 最终本论文提出的方法在G3D数据集上的分类准确率为92.3%。该结果验证论文中方法的可行性  
 
 # 论文提出的算法的流程图 
-![image](https://github.com/ynwu838/first-paper-ACTION-SEQUENCE-SIMILARITY-CALCULATION-ALGORITHM-via-OPENPOSE/blob/main/result/flowchart.png)  
+![image](https://github.com/ynwu838/Human-Action-Recognition-Algorithm-via-Human-Joint-Angle/图片/602c46f727825cca6fbfb01fa5a40ce.png)  
 
 # Important files load
 Here are some locations of some important files:  
