@@ -9,3 +9,6 @@
 
 # 论文方法的结果图
 ![image](https://github.com/ynwu838/Human-Action-Recognition-Algorithm-via-Human-Joint-Angle/blob/main/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%871.png)
+# 一些重要东西的下载
+①论文原文链接：https://pan.baidu.com/s/1AKD0U35UxwT87RhKgANRBA（提示：小学，lcy，同桌）  
+②数据集使用的是G3D数据集，在http://dipersec.king.ac.uk/G3D/G3D.html。可以找到，如果需要中间的数据处理过程的话去另一个仓库就可以看到了
