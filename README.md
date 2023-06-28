@@ -4,11 +4,9 @@
 （2）本文所使用的分类模型是一个融合了SVM，lightgbm等6个分类模型的集成学习模型，并且使用了一个结合了Boosting和Bagging的集成学习策略。  
 最终本论文提出的方法在G3D数据集上的分类准确率为92.3%。该结果验证论文中方法的可行性  
 
-# Flowchart concerning the work
-(1)The picture of the feature extraction is as fellow:  
+# 论文提出的算法的流程图 
 ![image](https://github.com/ynwu838/first-paper-ACTION-SEQUENCE-SIMILARITY-CALCULATION-ALGORITHM-via-OPENPOSE/blob/main/result/flowchart.png)  
-(2)The picture of the hunman action similarity calculation method is as fellow:  
-![image](https://github.com/ynwu838/first-paper-ACTION-SEQUENCE-SIMILARITY-CALCULATION-ALGORITHM-via-OPENPOSE/blob/main/result/similarity.png)
+
 # Important files load
 Here are some locations of some important files:  
 Password tips:the most unfogettable year(with primary lover lcy)  
