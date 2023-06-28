@@ -14,5 +14,5 @@
 ②数据集使用的是G3D数据集：http://dipersec.king.ac.uk/G3D/G3D.html    
 ③动作的特征向量抽取结果：https://pan.baidu.com/s/1RZoBe5edfd8zp0I7ttc_4w  
 # 代码运行
-## （1）运行分类模型的识别结果
+ ```cd ./code```
 
