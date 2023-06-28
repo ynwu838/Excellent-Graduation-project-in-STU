@@ -14,7 +14,10 @@
 ②数据集使用的是G3D数据集：http://dipersec.king.ac.uk/G3D/G3D.html    
 ③动作的特征向量抽取结果：https://pan.baidu.com/s/1RZoBe5edfd8zp0I7ttc_4w  
 # 代码运行
- ```cd ./code``` 
-①运行模型分类识别结果  ```python model.py```   
+ ```cd ./code```   
+①集成分类模型运行结果  ```python model.py```   
 ②SVM画图  ```python SVM.py```   
 ①KNN画图  ```python KNN.py```   
+④随机森林画图  ```python SVM.py```   
+①KNN画图  ```python KNN.py```   
+
