@@ -6,7 +6,7 @@
 
 # 论文提出的算法的流程图 
 ![image](https://github.com/ynwu838/Human-Action-Recognition-Algorithm-via-Human-Joint-Angle/blob/main/%E5%9B%BE%E7%89%87/602c46f727825cca6fbfb01fa5a40ce.png)  
-本文当中所提出的人体动作分类算法如下图所示，本算法主要分为人体3D关节点坐标获取，特征工程，模型集成，模型训练4个部分:  
+本文当中所提出的人体动作分类算法如上图所示，本算法主要分为人体3D关节点坐标获取，特征工程，模型集成，模型训练4个部分:  
 （1）人体关节点坐标获取部分：先使用Openpose的body25预训练模型结合训练集自带的深度图来提取出人体关键点3D坐标  
 （2）特征工程部分：先抽取人体动作特征向量，具体方法为：  
        ①在每一个人体动作序列中等间距取50张图片  
@@ -15,8 +15,16 @@
 （3）模型集成部分：因为logistic回归拟合能力较弱，所以先让它进行Adaboost增强拟合能力，而后再把它和SVM，KNN，随机森林，Xgboost，lightgbm一起进行基于软投票策略的Bagging方法后输出最终的分类结果。    
 （4）模型训练部分：按照训练集和测试集5:5的比例划分数据集，而后按照划分的数据集使用网格调参法调出每一个基分类模型的最佳参数，而后将其带入集成学习模型当中进行最终的模型分类预测  
 # 论文方法的结果图  
-
 ![image](https://github.com/ynwu838/Human-Action-Recognition-Algorithm-via-Human-Joint-Angle/blob/main/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%871.png)
+本文先使用网格调参法调出基分类器的最佳参数。根据调参的结果，各个基分类器的最佳参数如下：  
+（1）logistic回归：“L2”惩罚项，C取0.214  
+（2）支持向量机：核函数取“poly”，C取0.238  
+（3）KNN：使用kdtree进行搜索，K值取3  
+（4）随机森林：estimators的最佳参数为142，criterion选择“entropy”这个选项  
+（5）Xgboost：最佳estimators的个数为25  
+（6）Lightgbm：最佳estimators的个数为67  
+（7）在实验当中Adaboost中的基分类器的个数设定为100  
+将调参结果输入到集成分类学习模型当中以后分类准确率达到了92.3%，得到的分类结果的混淆矩阵如上图所示  
 
 # 一些重要东西的下载
 ①论文原文链接：https://pan.baidu.com/s/1AKD0U35UxwT87RhKgANRBA  
