@@ -39,5 +39,5 @@
 ④随机森林画图  ```python randomforest.py```   
 ⑤xgboost和Lightgbm画图  ```python xgboost_and_lightgbm.py```   
 ⑥logistic画图  ```python logistic.py```
-⑦特征抽取和特征选择：先把动作的特征向量数据下载好以后放到code目录下，而后运行 ```python logistic.py```
+⑦特征抽取和特征选择：先把动作的特征向量数据下载好以后放到code目录下，而后运行 ```python feature_extracting.py```
 
