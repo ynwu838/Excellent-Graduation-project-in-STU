@@ -92,7 +92,7 @@ def cosvalues(filename1,filename2):
         i = i + 1
 
     return result
-Root="feature-extracting-result"
+Root="data/feature-extracting-result"
 Sports=os.listdir(Root)
 print(Sports)
 
@@ -123,12 +123,12 @@ for Sport in Sports:
             Matrixname = Finalpath + '/' + "Matrix.csv"
             print(Matrixname)
             Matrix.tofile(Matrixname, sep=',', format='%1.5f')
-Root="D:/feature-extracting-result"
+Root="data/feature-extracting-result"
 sports=os.listdir(Root)
 print(sports)
 Class=0
 '''Bowling是,0，Drving是1.Fighting是2，FPS是3，Golf是4，Misc是5，Tennis是6'''
-result=pd.read_csv("D:/feature-extracting-result/Bowling/Actor_1/1/Matrix.csv",header=None)
+result=pd.read_csv("data/feature-extracting-result/Bowling/Actor_1/1/Matrix.csv",header=None)
 result["class"]=1
 data=pd.DataFrame(columns=result.columns)
 print(data)
