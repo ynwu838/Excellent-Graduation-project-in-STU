@@ -30,7 +30,7 @@
 # 一些重要东西的下载
 ①论文原文链接：https://pan.baidu.com/s/1AKD0U35UxwT87RhKgANRBA  
 ②数据集使用的是G3D数据集：http://dipersec.king.ac.uk/G3D/G3D.html    
-③动作的特征向量抽取结果：https://pan.baidu.com/s/1RZoBe5edfd8zp0I7ttc_4w  
+③动作的特征向量数据：https://pan.baidu.com/s/1RZoBe5edfd8zp0I7ttc_4w  
 # 代码运行
  ```cd ./code```   
 ①集成分类模型运行结果  ```python proposed_method.py```   
@@ -39,4 +39,5 @@
 ④随机森林画图  ```python randomforest.py```   
 ⑤xgboost和Lightgbm画图  ```python xgboost_and_lightgbm.py```   
 ⑥logistic画图  ```python logistic.py```
+⑦特征抽取和特征选择：先把动作的特征向量数据下载好以后放到code目录下，而后运行 ```python logistic.py```
 
