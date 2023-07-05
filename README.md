@@ -24,7 +24,7 @@
 （5）Xgboost：最佳estimators的个数为25  
 （6）Lightgbm：最佳estimators的个数为67  
 （7）在实验当中Adaboost中的基分类器的个数设定为100  
-将调参结果输入到集成分类学习模型当中以后分类准确率达到了92.3%，得到的分类结果的混淆矩阵如下图所示  
+将调参结果输入到集成分类学习模型当中以后分类准确率达到了94.23%，得到的分类结果的混淆矩阵如下图所示  
 ![image](https://github.com/ynwu838/Human-Action-Recognition-Algorithm-via-Human-Joint-Angle/blob/main/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%871.png) 
 
 # 一些重要东西的下载
