@@ -29,7 +29,7 @@
 
 # 一些重要东西的下载
 ①数据集使用的是G3D数据集：http://dipersec.king.ac.uk/G3D/G3D.html    
-②人体动作序列数据： https://pan.baidu.com/s/12kwbcNEpWg86XSV-cOMKMQ  
+②Openpose预处理以后的数据： https://pan.baidu.com/s/12kwbcNEpWg86XSV-cOMKMQ  
 密码为2009
 # 代码运行
  ```cd ./code```   
@@ -39,6 +39,6 @@
 ④随机森林画图  ```python randomforest.py```   
 ⑤xgboost和Lightgbm画图  ```python xgboost_and_lightgbm.py```   
 ⑥logistic画图  ```python logistic.py```
-⑦特征抽取和特征选择：先把动作的特征向量数据下载好以后放到code/data目录下，而后运行 ```python feature_extracting.py```      
+⑦特征抽取和特征选择：先把上面Openpose预处理以后的数据下载好以后放到code/data目录下，而后运行 ```python feature_extracting.py```      
 ⑧如果你想直接使用论文实验的数据的话就把Experimental data 文件夹里面的数据放到code文件夹下面，这样就不用再跑一遍特征抽取了
 
