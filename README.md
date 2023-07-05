@@ -28,9 +28,8 @@
 ![image](https://github.com/ynwu838/Human-Action-Recognition-Algorithm-via-Human-Joint-Angle/blob/main/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%871.png) 
 
 # 一些重要东西的下载
-①论文原文链接：https://pan.baidu.com/s/1un5r-pDLarEiZu-LF94q_Q   
-②数据集使用的是G3D数据集：http://dipersec.king.ac.uk/G3D/G3D.html    
-③动作的特征向量数据： https://pan.baidu.com/s/12kwbcNEpWg86XSV-cOMKMQ  
+①数据集使用的是G3D数据集：http://dipersec.king.ac.uk/G3D/G3D.html    
+②动作的特征向量数据： https://pan.baidu.com/s/12kwbcNEpWg86XSV-cOMKMQ  
 密码为2009
 # 代码运行
  ```cd ./code```   
