@@ -40,5 +40,5 @@
 ⑤xgboost和Lightgbm画图  ```python xgboost_and_lightgbm.py```   
 ⑥logistic画图  ```python logistic.py```
 ⑦特征抽取和特征选择：先把动作的特征向量数据下载好以后放到code目录下，而后运行 ```python feature_extracting.py```  
-⑧如果你想直接使用论文实验的数据的话就把Experimental daya 文件夹里面的数据放到code文件夹下面，这样就不用再跑一遍特征抽取了
+⑧如果你想直接使用论文实验的数据的话就把Experimental data 文件夹里面的数据放到code文件夹下面，这样就不用再跑一遍特征抽取了
 
