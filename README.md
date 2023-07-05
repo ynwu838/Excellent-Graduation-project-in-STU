@@ -39,6 +39,6 @@
 ④随机森林画图  ```python randomforest.py```   
 ⑤xgboost和Lightgbm画图  ```python xgboost_and_lightgbm.py```   
 ⑥logistic画图  ```python logistic.py```
-⑦特征抽取和特征选择：先把上面Openpose预处理以后的数据下载好以后放到code/data目录下，而后运行 ```python feature_extracting.py``` ,但是使用这个代码运行所得到的特征抽取结果就可能得到和论文得到的结果不一样，因为RFE的运行结果每一次都会有细小的差异    
+⑦特征抽取和特征选择：先把上面Openpose预处理以后的数据下载好以后放到code/data目录下，而后运行 ```python feature_extracting.py``` ,但是使用这个代码运行所得到的特征抽取结果来运行模型就可能得到和论文得到的结果不一样，因为RFE的运行结果每一次都会有细小的差异    
 ⑧如果你想直接使用论文实验的数据的话就把Experimental data 文件夹里面的数据放到code文件夹下面，这样就不用再跑一遍特征抽取了
 
