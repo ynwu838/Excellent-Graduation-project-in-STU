@@ -29,7 +29,7 @@
 
 # 一些重要东西的下载
 ①数据集使用的是G3D数据集：http://dipersec.king.ac.uk/G3D/G3D.html    
-②动作的特征向量数据： https://pan.baidu.com/s/12kwbcNEpWg86XSV-cOMKMQ  
+②人体动作序列数据： https://pan.baidu.com/s/12kwbcNEpWg86XSV-cOMKMQ  
 密码为2009
 # 代码运行
  ```cd ./code```   
