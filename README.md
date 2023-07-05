@@ -28,9 +28,9 @@
 ![image](https://github.com/ynwu838/Human-Action-Recognition-Algorithm-via-Human-Joint-Angle/blob/main/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%871.png) 
 
 # 一些重要东西的下载
-①数据集使用的是G3D数据集：http://dipersec.king.ac.uk/G3D/G3D.html    
+①数据集使用的是G3D数据集：http://dipersec.king.ac.uk/G3D/G3D.html      
 ②Openpose预处理以后的数据： https://pan.baidu.com/s/12kwbcNEpWg86XSV-cOMKMQ  
-密码为2009
+密码为2009  
 # 代码运行
  ```cd ./code```   
 ①集成分类模型运行结果  ```python proposed_method.py```   
