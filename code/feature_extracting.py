@@ -104,7 +104,6 @@ for Sport in Sports:
         Actions=os.listdir(Actionspath)
         for Action in Actions:
             Finalpath = Actionspath + '/' + Action
-            print(Finalpath)
             for i in np.linspace(1, 1, 1):
                 i = int(i)
                 jsonpath = Finalpath+ '/output/' + str(i) + '_keypoints.json'
@@ -119,10 +118,9 @@ for Sport in Sports:
 
                 Vector = np.array(cosvalues(jsonpath, depthpath))
                 Matrix = np.vstack((Matrix, Vector))
-            print(Matrix.shape)
             Matrixname = Finalpath + '/' + "Matrix.csv"
-            print(Matrixname)
             Matrix.tofile(Matrixname, sep=',', format='%1.5f')
+    print(Sport,"is Done")
 Root="data/feature-extracting-result"
 sports=os.listdir(Root)
 print(sports)
